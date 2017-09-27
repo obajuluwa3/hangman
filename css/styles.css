@@ -1,0 +1,35 @@
+.container {
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#word {
+	margin: 10px 0;
+}
+
+.letter {
+	font-size: 2em;
+	width: 50px;
+	display: inline-block;
+	visibility: hidden;
+}
+
+.letterBox {
+	margin: 0px 5px;
+	display: inline;
+	border-bottom: 2px solid black;
+}
+
+#letterGuess {
+	width: 50px;
+	margin: 10px 0;
+}
+
+#guessBtn {
+	width: 100px;
+	margin: 10px 0;
+}
